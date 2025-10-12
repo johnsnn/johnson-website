@@ -211,21 +211,23 @@ body {
 .gallery-video-container {
   position: relative;
   width: 100%;
-  max-width: 500px; /* Matches your original max-width */
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 ÷ 16 = 0.5625) */
+  max-width: 500px; /* Adjustable for desktop */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   background-color: #f5f5f5;
-  overflow: hidden; /* Ensures rounded corners are applied */
+  overflow: hidden; /* Prevent overflow issues */
 }
 
+/* Ensure iframe fills the container */
 .gallery-video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 10px; /* Applies to the iframe */
+  border: 0; /* Remove any default borders */
+  border-radius: 10px; /* Match container */
 }
 
 .gallery-caption {
@@ -276,6 +278,14 @@ body {
 
   .gallery-video-container {
     max-width: 100%; /* Full width on mobile */
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+    min-height: 200px; /* Prevent overly small videos */
+  }
+
+  .gallery-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
 
   .gallery-caption {
@@ -287,6 +297,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 

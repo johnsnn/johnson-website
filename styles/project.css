@@ -263,6 +263,10 @@ body {
     max-width: 100%;
   }
 
+  .gallery-video {
+    max-width: 100%;
+  }
+
   .gallery-caption {
     font-size: 13px;
     max-width: 100%;
@@ -272,6 +276,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 

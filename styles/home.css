@@ -102,7 +102,7 @@ body {
 
   .navbar-collapse.show {
     display: flex;
-    max-height: 500px; 
+    max-height: 600px; 
   }
 
   .navbar-nav {
@@ -222,4 +222,5 @@ body {
     height: auto;
   }
 }
+
 

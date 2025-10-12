@@ -217,6 +217,14 @@ body {
   line-height: 1.4;
 }
 
+.gallery-caption.music-video {
+  font-size: 14px;
+  color: #555555; /* Medium grey for captions */
+  text-align: justify;
+  margin-top: 10px;
+  max-width: 500px;
+  line-height: 1.4;
+}
 
 @media (max-width: 768px) {
   .project-section {
@@ -250,5 +258,10 @@ body {
     font-size: 13px;
     max-width: 100%;
   }
+  .gallery-caption.music-video {
+    font-size: 13px;
+    max-width: 100%;
+  }
 }
+
 

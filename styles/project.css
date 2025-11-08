@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .navbar-brand .logo-image {
@@ -295,6 +295,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 
